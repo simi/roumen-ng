@@ -14,6 +14,7 @@ $(document).ready(function() {
         });
 
         $('#gallery').galereya({
+            modifier: 'raumon',
             load: function(next) {
                 next($data);
                 // hide spinner
