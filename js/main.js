@@ -16,6 +16,8 @@ $(document).ready(function() {
         $('#gallery').galereya({
             load: function(next) {
                 next($data);
+                // hide spinner
+                $('#loader').hide();
             }
         });
     });

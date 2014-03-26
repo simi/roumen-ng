@@ -60,6 +60,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+#loader {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .galereya-cats {
     display: none;
 }
@@ -72,6 +78,7 @@ textarea {
     transition: opacity 0.5s ease;
     opacity: 1;
 }
+
 .galereya-slider-desc:hover {
     -webkit-transition: opacity 0.5s ease;
     -moz-transition: opacity 0.5s ease;
