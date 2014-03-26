@@ -70,6 +70,27 @@ textarea {
     display: none;
 }
 
+.galereya-slider.raumon .galereya-slide-img:hover {
+  cursor: -webkit-zoom-in;
+  cursor: -moz-zoom-in;
+  cursor: zoom-in;
+}
+
+.galereya-slider.raumon.zoom .galereya-slide-img:hover {
+  cursor: -webkit-zoom-out;
+  cursor: -moz-zoom-out;
+  cursor: zoom-out;
+}
+
+.galereya-slider.raumon.zoom .galereya-slide-img {
+  max-height: none;
+  max-width: none;
+}
+
+.galereya-slider.raumon.zoom .galereya-slider-slide.current {
+  overflow: auto;
+}
+
 .galereya-slider.raumon .galereya-slider-desc {
     -webkit-transition: opacity 0.5s ease;
     -moz-transition: opacity 0.5s ease;
@@ -79,6 +100,7 @@ textarea {
     opacity: 1;
 }
 
+.galereya-slider.raumon.zoom .galereya-slider-desc,
 .galereya-slider.raumon .galereya-slider-desc:hover {
     -webkit-transition: opacity 0.5s ease;
     -moz-transition: opacity 0.5s ease;
@@ -96,6 +118,7 @@ textarea {
   -o-transition: -o-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
 }
+
 .galereya.raumon .galereya-cell:hover {
   -webkit-transform: scale(1.5);
   -moz-transform: scale(1.5);
