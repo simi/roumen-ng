@@ -64,6 +64,23 @@ textarea {
     display: none;
 }
 
+.galereya-slider-desc {
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+.galereya-slider-desc:hover {
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
