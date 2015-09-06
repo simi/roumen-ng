@@ -1,4 +1,4 @@
-var rssurl = 'http://www.corsproxy.com/www.rouming.cz/roumingRSS.php';
+var rssurl = 'http://crossorigin.me/http://www.rouming.cz/roumingRSS.php';
 var gallery;
 
 $(document).ready(function() {
