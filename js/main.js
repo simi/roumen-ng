@@ -35,7 +35,6 @@ $(document).ready(function() {
               }
             },
             onSliderClose: function() {
-                console.log("A");
                 window.history.pushState({index: null}, null, "index.html");
             }
         });
