@@ -1,4 +1,4 @@
-var rssurl = 'http://crossorigin.me/http://www.rouming.cz/roumingRSS.php';
+var rssurl = 'https://cors-anywhere.herokuapp.com/http://www.rouming.cz/roumingRSS.php';
 var gallery;
 
 $(document).ready(function() {
