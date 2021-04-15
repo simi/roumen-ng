@@ -1,4 +1,4 @@
-var rssurl = 'https://cors-anywhere.herokuapp.com/http://www.rouming.cz/roumingRSS.php';
+var rssurl = 'https://api.codetabs.com/v1/proxy?quest=http://www.rouming.cz/roumingRSS.php';
 var gallery;
 
 $(document).ready(function() {
